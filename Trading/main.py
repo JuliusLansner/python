@@ -25,5 +25,22 @@ def get_sorted_orders(item):
     else:
         print(f"failed, status code: {response.status_code}")
 
-item = input("what item do you want to see the price of?\n")
-get_sorted_orders(item)
+
+
+def get_item_set(item):
+    item = item.replace(" ","_")
+    
+    
+def main():
+    choice = input("1: Price single item - 2: Price compare")
+    
+    if choice == "1":
+        item = input("what item do you want to see the price of?\n")
+        get_sorted_orders(item)
+    if choice == "2":
+         item = input("What set do you wantt to search for?")
+         get_item_set(item)
+    else:
+        print("Please choose 1 or 2")
+        
+main()

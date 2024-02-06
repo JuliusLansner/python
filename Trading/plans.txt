@@ -1,0 +1,9 @@
+how can i retrieve the lowest sell price for mirage prime systems on a specific platform using the warframe market api?
+
+how can i retrieve the median, avg, etc price.
+
+how can i retrieve the order list
+
+how can i retrieve the ...
+
+double search, search for set and item and compare prices, calculate potential profit
